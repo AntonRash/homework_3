@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+.screen {
+	color: navy;
+}
+.facts {
+	color: mediumpurple;
+}
+
+span.hotpink {
+	color: hotpink;
+}
+span {
+	color: green;
+}
+
+div.plot {
+	color: olive;
+}
+
+div {
+	color: maroon;
+}
+
+#sources {
+	color: lightseagreen;
+}
+
+[class*="characters"] {
+	color: darkblue;
+}
+
+.central.characters {
+	color: black;
+}
+
+.title_p + p {
+	color: indigo;
+}
+
+.critism > p {
+	color: yellow;
+}
+.critsm_p ~ p {
+	color: violet;
+}
